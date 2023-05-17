@@ -54,10 +54,10 @@ def script_defaults(settings):
     global output_path3
 
     # Set defaults/hardcoded paths here:
-    obs.obs_data_set_default_string(settings, "inputpath", "Y:\\YouTube\\PreUpload\\")
-    obs.obs_data_set_default_string(settings, "outputpath1", "Y:\\YouTube\\Upload\\MultiplayerRecording\\")
-    obs.obs_data_set_default_string(settings, "outputpath2", "Y:\\YouTube\\Upload\\CampaignRecording\\")
-    obs.obs_data_set_default_string(settings, "outputpath3", "Y:\\YouTube\\Upload\\Other\\")
+    obs.obs_data_set_default_string(settings, "inputpath", "Z:\\YouTube\\PreUpload\\")
+    obs.obs_data_set_default_string(settings, "outputpath1", "Z:\\YouTube\\Upload\\MultiplayerRecording\\")
+    obs.obs_data_set_default_string(settings, "outputpath2", "Z:\\YouTube\\Upload\\CampaignRecording\\")
+    obs.obs_data_set_default_string(settings, "outputpath3", "Z:\\YouTube\\Upload\\Other\\")
 
 
 # Function updates the values for the input and output paths
